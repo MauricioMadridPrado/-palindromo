@@ -1,0 +1,10 @@
+.link__container{
+    padding: 1em;
+    box-shadow: 0 0 0.5em var(--sombra-clara);
+}
+.link{
+    padding:1em 6em;
+    text-decoration: none;
+    color: var(--cor-letra);
+    font-size: 1.5em;
+}

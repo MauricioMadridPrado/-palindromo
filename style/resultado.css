@@ -1,0 +1,20 @@
+.resultado__container {
+    position:static;
+    
+    border-radius: 5em;
+
+}
+.verdade{
+    color: rgb(109, 242, 109);
+}
+.falso{
+    color: rgb(246, 143, 143);
+}
+.resultado {
+
+}
+
+.resultado__texto {
+
+    font-size: 3rem;
+}

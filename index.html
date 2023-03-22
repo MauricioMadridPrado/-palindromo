@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>palíndromo</title>
+</head>
+
+<body>
+
+    <main class="principal">
+        <section class="formulario__container">
+            <h1 class="formulario__titulo">Verificador de palíndromos!</h1>
+            <div class="link__container">
+                <a class="link" href="https://pt.wikipedia.org/wiki/Pal%C3%ADndromo">O que é um palindromo?</a>
+            </div>
+            <form class="formulario">
+                <label class="formulario__rotulo" for="palavra">Digite sua palavra e veja se ela é um
+                    palíndromo!</label>
+                <input required class="formulario__entrada" type="text" name="palavra" id="palavra">
+                <button class="formulario__botao" id="botao">Verificar</button>
+                <header id="resultado">
+
+                </header>
+            </form>
+        </section>
+    </main>
+
+
+    <script src="./app/main.js"></script>
+    <script src="./app/verificaPalavra.js"></script>
+    <script src="./app/mostraResultado.js"></script>
+</body>
+
+</html>
